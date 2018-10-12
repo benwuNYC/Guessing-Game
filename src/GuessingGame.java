@@ -21,7 +21,7 @@ public class GuessingGame {
                 guess = input.nextInt();
                 NumGuess++;
             }
-            System.out.println("You got it," + namePrint + "! The number is" + secret1 + "!");
+            System.out.println("You got it, " + namePrint + "! The number is " + secret1 + "!");
         }
         if (a == 2) {
             int secret2 = (int) (x * 100 + 1);
@@ -34,7 +34,7 @@ public class GuessingGame {
                 guess = input.nextInt();
                 NumGuess++;
             }
-            System.out.println("You got it," + namePrint + "! The number is" + secret2 + "!");
+            System.out.println("You got it, " + namePrint + "! The number is " + secret2 + "!");
         }
         if (a == 3) {
             int secret3 = (int) (x * 1000 + 1);
@@ -47,7 +47,7 @@ public class GuessingGame {
                 guess = input.nextInt();
                 NumGuess++;
             }
-            System.out.println("You got it," + namePrint + "! The number is" + secret3 + "!");
+            System.out.println("You got it, " + namePrint + "! The number is " + secret3 + "!");
         }
         if (a == 4) {
             int secret4 = (int) (x * 10000 + 1);
@@ -60,7 +60,7 @@ public class GuessingGame {
                 guess = input.nextInt();
                 NumGuess++;
             }
-            System.out.println("You got it," + namePrint + "! The number is " + secret4 + "!");
+            System.out.println("You got it, " + namePrint + "! The number is " + secret4 + "!");
         }
         System.out.println("Thank you for playing," + namePrint +".");
     }
