@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class GuessGameAI {
     public static void main(String[] args) {
         double x= Math.random();
-        int TimesGuessed = 0;
+        int TimesGuess = 0;
         System.out.println("Welcome to Guessing Game AI, where I will guess your number!");
         System.out.println("What is your name?");
         Scanner name = new Scanner(System.in);
